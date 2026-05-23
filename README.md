@@ -41,7 +41,9 @@ Funcionamiento del sistema:
 4. El sistema muestra alertas y recomendaciones.
 
 La solución puede utilizarse en ciudades con altos niveles de contaminación o en zonas donde se necesite monitoreo ambiental constante.
-[MedioAmbiente]https://upload.wikimedia.org/wikipedia/commons/b/be/TENEMOS_QUE_CUIDAR_EL_MEDIO_AMBIENTE.jpeg
+![MedioAmbiente](https://upload.wikimedia.org/wikipedia/commons/b/be/TENEMOS_QUE_CUIDAR_EL_MEDIO_AMBIENTE.jpeg)
+
+```python
 def pollution_alert(level):
     if level > 80:
         return "Alerta alta de contaminación"
@@ -51,6 +53,7 @@ def pollution_alert(level):
         return "Calidad ambiental aceptable"
 
 print(pollution_alert(85))
+```
 
 
 ## Data sources and AI methods
@@ -76,6 +79,7 @@ Técnicas de IA utilizadas:
 | Redes neuronales | Reconocimiento de patrones |
 | Visión por computadora | Análisis de imágenes satelitales |
 | Análisis predictivo | Alertas tempranas |
+
 ## Challenges
 
 Este proyecto tiene algunas limitaciones:
@@ -110,7 +114,7 @@ Para seguir desarrollándolo serían necesarios más conocimientos en:
 * Inspirado en proyectos de monitoreo ambiental.
 * Datos obtenidos de OpenWeather y NASA Earth Data.
 * Gracias al curso Building AI de la Universidad de Helsinki y Reaktor.
-* ![EcoVision]<img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/12c2c999-09ec-496f-8dfe-82c82950f0f0" />
+* <img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/12c2c999-09ec-496f-8dfe-82c82950f0f0" />
 
 <img width="259" height="194" alt="image" src="https://github.com/user-attachments/assets/99a008ab-7cc7-4e86-a544-c0174c0d2be1" />
 
@@ -118,11 +122,10 @@ Para seguir desarrollándolo serían necesarios más conocimientos en:
 
 Imagen de referencia:
 
-![EcoVision]<img width="1330" height="1002" alt="image" src="https://github.com/user-attachments/assets/23b4ec80-409a-43d8-8f13-3ceefb1f5d5a" />
-
+<img width="1330" height="1002" alt="image" src="https://github.com/user-attachments/assets/23b4ec80-409a-43d8-8f13-3ceefb1f5d5a" />
 
 Fuentes utilizadas:
 
 [OpenWeather API]https://www.earthdata.nasa.gov/engage/open-data-services-software/earthdata-developer-portal/gibs-api 
 
-[NASA Earth Data](https://www.earthdata.nasa.gov/)
+[NASA Earth Data](https://www.earthdata.nasa.gov/engage/open-data-services-software/earthdata-developer-portal/gibs-api)
