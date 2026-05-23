@@ -129,7 +129,9 @@ Fuentes utilizadas:
 [OpenWeather API]https://www.earthdata.nasa.gov/engage/open-data-services-software/earthdata-developer-portal/gibs-api 
 
 [NASA Earth Data](https://www.earthdata.nasa.gov/engage/open-data-services-software/earthdata-developer-portal/gibs-api)
-##LICENCIA
+
+## LICENCIA
 Este proyecto se ha creado con fines educativos y de aprendizaje.
-##AUTOR
+
+## AUTOR
 SALVAREZ-UX
