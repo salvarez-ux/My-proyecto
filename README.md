@@ -134,4 +134,4 @@ Fuentes utilizadas:
 Este proyecto se ha creado con fines educativos y de aprendizaje.
 
 ## AUTOR
-SALVAREZ-UX
+Salvarez-ux
