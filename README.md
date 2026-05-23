@@ -41,7 +41,7 @@ Funcionamiento del sistema:
 4. El sistema muestra alertas y recomendaciones.
 
 La solución puede utilizarse en ciudades con altos niveles de contaminación o en zonas donde se necesite monitoreo ambiental constante.
-![Medio Ambiente](https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg)
+![Medio Ambiente][(https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg)](https://www.google.com/imgres?q=!%5BMedio%20Ambiente%5D(https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F3%2F3f%2FFronalpstock_big.jpg)&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fb%2Fbe%2FTENEMOS_QUE_CUIDAR_EL_MEDIO_AMBIENTE.jpeg&imgrefurl=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FArchivo%3ATENEMOS_QUE_CUIDAR_EL_MEDIO_AMBIENTE.jpeg&docid=WKCmi0lhZ0fRDM&tbnid=oh7c04-zVOGknM&vet=12ahUKEwjz4r7TtdCUAxVPRTABHRw_Os0QnPAOegQIExAB..i&w=346&h=346&hcb=2&ved=2ahUKEwjz4r7TtdCUAxVPRTABHRw_Os0QnPAOegQIExAB) 
 
 def pollution_alert(level):
     if level > 80:
