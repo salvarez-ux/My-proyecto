@@ -1,11 +1,11 @@
 
-# Project Title
+# EcoVision AI 🌱
 
 Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+EcoVision AI es una aplicación basada en inteligencia artificial que ayuda a detectar niveles de contaminación ambiental utilizando datos climáticos e imágenes satelitales. El objetivo es generar alertas tempranas y ayudar a proteger el medio ambiente.
 
 
 ## Background
@@ -20,57 +20,102 @@ This is how you make a list, if you need one:
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+EcoVision AI puede ser utilizado por:
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+* Municipios
+* Organizaciones ambientales
+* Escuelas y universidades
+* Ciudadanos interesados en el medio ambiente
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+Funcionamiento del sistema:
 
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
+1. El usuario selecciona una ubicación.
+2. El sistema recopila datos ambientales.
+3. La inteligencia artificial analiza los datos.
+4. El sistema muestra alertas y recomendaciones.
 
-   totPop = sum(pop)
-   totFish = sum(fishers)
+La solución puede utilizarse en ciudades con altos niveles de contaminación o en zonas donde se necesite monitoreo ambiental constante.
+![Medio Ambiente](https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg)
 
-   # write your solution here
+def pollution_alert(level):
+    if level > 80:
+        return "Alerta alta de contaminación"
+    elif level > 50:
+        return "Contaminación moderada"
+    else:
+        return "Calidad ambiental aceptable"
 
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
+print(pollution_alert(85))
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+## Data sources and AI methods
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+El proyecto utilizará datos provenientes de:
 
+* APIs climáticas
+* Sensores ambientales
+* Imágenes satelitales
+* Bases de datos públicas
+
+Fuentes posibles:
+
+* OpenWeather API
+* NASA Earth Data
+* World Air Quality Index
+
+Técnicas de IA utilizadas:
+
+| Técnica de IA | Uso |
+|---|---|
+| Machine Learning | Predicción de contaminación |
+| Redes neuronales | Reconocimiento de patrones |
+| Visión por computadora | Análisis de imágenes satelitales |
+| Análisis predictivo | Alertas tempranas |
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+Este proyecto tiene algunas limitaciones:
+
+* Dependencia de datos precisos y actualizados.
+* Posibles errores en las predicciones.
+* Costos altos de implementación.
+* Falta de sensores ambientales en algunas regiones.
+
+También es importante considerar el uso responsable de los datos ambientales.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+En el futuro, EcoVision AI podría incluir:
+
+* Aplicaciones móviles.
+* Mapas interactivos.
+* Alertas en tiempo real.
+* Integración con drones.
+* Sistemas automáticos de monitoreo ambiental.
+
+Para seguir desarrollándolo serían necesarios más conocimientos en:
+
+* Ciencia de datos
+* Inteligencia artificial
+* Desarrollo web y móvil
+* Computación en la nube
 
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+* Inspirado en proyectos de monitoreo ambiental.
+* Datos obtenidos de OpenWeather y NASA Earth Data.
+* Gracias al curso Building AI de la Universidad de Helsinki y Reaktor.
+* ![EcoVision](images/contaminacion.jpg)
+* <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg" width="400">
+## Extra Resources
+
+Imagen de referencia:
+
+![EcoVision](https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg)
+
+Fuentes utilizadas:
+
+[OpenWeather API](https://openweathermap.org/api)
+
+[NASA Earth Data](https://earthdata.nasa.gov/)
