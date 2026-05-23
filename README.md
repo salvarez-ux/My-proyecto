@@ -54,7 +54,6 @@ print(pollution_alert(85))
 
 
 ## Data sources and AI methods
-## Data sources and AI methods
 
 El proyecto utilizará datos provenientes de:
 
@@ -119,10 +118,11 @@ Para seguir desarrollándolo serían necesarios más conocimientos en:
 
 Imagen de referencia:
 
-![EcoVision](https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg)
+![EcoVision]<img width="1330" height="1002" alt="image" src="https://github.com/user-attachments/assets/23b4ec80-409a-43d8-8f13-3ceefb1f5d5a" />
+
 
 Fuentes utilizadas:
 
-[OpenWeather API](https://openweathermap.org/api)
+[OpenWeather API]https://www.earthdata.nasa.gov/engage/open-data-services-software/earthdata-developer-portal/gibs-api 
 
-[NASA Earth Data](https://earthdata.nasa.gov/)
+[NASA Earth Data](https://www.earthdata.nasa.gov/)
