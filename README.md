@@ -10,12 +10,18 @@ EcoVision AI es una aplicación basada en inteligencia artificial que ayuda a de
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+La contaminación ambiental afecta a millones de personas en todo el mundo. Muchas ciudades presentan altos niveles de contaminación del aire y agua, lo que provoca enfermedades y daños al ecosistema.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+Mi proyecto busca ayudar a detectar zonas contaminadas utilizando inteligencia artificial para analizar datos ambientales.
+
+Problemas que intenta resolver:
+
+* Dificultad para monitorear contaminación en tiempo real.
+* Falta de acceso a información ambiental.
+* Poca prevención de riesgos ambientales.
+* Escasa conciencia ecológica.
+
+Mi motivación personal es utilizar tecnología e inteligencia artificial para ayudar al cuidado del planeta y crear soluciones útiles para la sociedad.
 
 
 ## How is it used?
